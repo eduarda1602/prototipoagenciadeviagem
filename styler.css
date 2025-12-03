@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+#logo{
+    height: 32px;
+    width: 167px;
+    margin: 20px;
+
+}
+
+.shery{
+    color: #757575;
+}
+
+
+.caixa_img_logo{
+height: 90px;
+width: 140px;
+padding: 15px;
+
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.btn-login-in{
+    height: 44px;
+    width: 83.31px;
+    border-radius: 50px;
+    background-color:#EB662B;
+    color: #ffffff;
+    font-weight: lighter;
+    border: none;
+    font-size: 15px;
+}
+.banner{
+    background-image: url(./assents/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 702.13px;
+    width: 1800px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.texto-banner{
+    font-size: 69.73px;
+    color: #fff;
+    
+
+}
+.texto-banner2{
+    font-size: 14.65px;
+    color: #fff;
+}
