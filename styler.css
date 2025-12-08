@@ -66,7 +66,7 @@ ul{
     font-size: 15px;
 }
 .banner{
-    background-image: url(./assents/Section.png);
+    background-image: url(./assents/banner/Section.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 702.13px;
@@ -85,7 +85,7 @@ ul{
     display: flex;
     justify-content: center;
     
-div.caixa-icones
+
 }
 .texto-banner2{
     font-size: 14.65px;
@@ -134,17 +134,38 @@ div.caixa-icones
     padding: 10px;
 }
 
-
-
-
-
+.escolha{
+    margin: auto;
+    width: 1320px;
+    height: 293.38px;
+}
 .titulo-primario{
-    color:black;
-    font-size: 40px;
-    font-weight: 700px;
-    padding: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.conteiner-icones{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.caixa-icones{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tituloo{
+    font-size: 16.72px;
+    font-weight: 500;
+    font-weight: bold;
+}
+.texto-icone{
+    font-size: 14.88px;
+    font-weight: 400;
+}
+.estrura-titulo{
+    margin-bottom: 50px;
 }
 .bi{
-    font-size: 60px;
+    font-size: 50px;
     color: #EB662B;
 }
