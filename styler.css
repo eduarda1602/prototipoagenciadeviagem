@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #fff;
 }
 
@@ -13,59 +14,61 @@ li a {
     padding: 20px;
 }
 
-li{
+li {
     list-style: none;
 }
 
 
-#logo{
+#logo {
     height: 32px;
     width: 167px;
     margin: 20px;
 
 }
 
-.shery{
+.shery {
     color: #757575;
 }
 
 
-.caixa_img_logo{
-height: 90px;
-width: 140px;
-padding: 15px;
+.caixa_img_logo {
+    height: 90px;
+    width: 140px;
+    padding: 15px;
 
 
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+
 
 }
 
 
 
 
-ul{
+ul {
     display: flex;
     flex-direction: row;
-    
+
 }
-.btn-login-in{
+
+.btn-login-in {
     height: 44px;
     width: 83.31px;
     border-radius: 50px;
-    background-color:#EB662B;
+    background-color: #EB662B;
     color: #ffffff;
     font-weight: lighter;
     border: none;
     font-size: 15px;
 }
-.banner{
+
+.banner {
     background-image: url(./assents/banner/Section.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,21 +82,24 @@ ul{
     justify-content: center;
     padding: 10px;
 }
-.texto-banner{
+
+.texto-banner {
     font-size: 69.73px;
     color: #fff;
     display: flex;
     justify-content: center;
-    
+
 
 }
-.texto-banner2{
+
+.texto-banner2 {
     font-size: 14.65px;
     color: #fff;
     display: flex;
     justify-content: center;
 }
-.caixa-section{
+
+.caixa-section {
     background-color: #fff;
     padding: 10px;
     display: flex;
@@ -103,69 +109,142 @@ ul{
     gap: 20px;
     border-radius: 12px;
 }
-.quadrado{
+
+.quadrado {
     border: 1px solid lightgrey;
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    
+
 }
-.onde{
+
+.onde {
     display: flex;
     flex-direction: row;
 
 }
-.quando{
+
+.quando {
     display: flex;
     flex-direction: row;
 }
-.tipo{
+
+.tipo {
     display: flex;
     flex-direction: row;
 }
-.texto-pesquisa{
-    font-size: 13.67px;  
+
+.texto-pesquisa {
+    font-size: 13.67px;
     color: #717171;
 }
-.titulo-pesquisa{
+
+.titulo-pesquisa {
     font-size: 15px;
 }
-.caixa-subtexto-banner{
+
+.caixa-subtexto-banner {
     padding: 10px;
 }
 
-.escolha{
+.escolha {
     margin: auto;
     width: 1320px;
     height: 293.38px;
 }
-.titulo-primario{
+
+.titulo-primario {
     font-weight: 700;
     font-size: 30px;
 }
-.conteiner-icones{
+
+.conteiner-icones {
     display: flex;
     flex-direction: row;
     gap: 100px;
 }
-.caixa-icones{
+
+.caixa-icones {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.tituloo{
+
+.tituloo {
     font-size: 16.72px;
     font-weight: 500;
     font-weight: bold;
 }
-.texto-icone{
+
+.texto-icone {
     font-size: 14.88px;
     font-weight: 400;
 }
-.estrura-titulo{
+
+.estrura-titulo {
     margin-bottom: 50px;
 }
-.bi{
+
+.bi {
     font-size: 50px;
     color: #EB662B;
+}
+
+.section-carrosel {
+    width: 1320px;
+    margin: auto;
+
+
+}
+
+.caixa-box-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.trend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cidades{
+    font-size: 15 23px;
+    font-weight: bold;
+}
+.Tours{
+    font-size: 13px;
+    font-weight: 400;
+}
+.find{
+    width: 1320px ;
+    margin: auto;
+    background-color: beige;
+
+}
+
+.popular{
+    border: 1px solid black;
+    width: 300px;
+    height: 388px;
+    border-radius: 12px;
+}
+.caixa-find{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+
 }
